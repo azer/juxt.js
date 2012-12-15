@@ -1,0 +1,20 @@
+{
+  "name": "juxt",
+  "version": "0.0.0",
+  "description": "Take a set of functions, return a function that is the juxtaposition of those functions.",
+  "main": "juxt.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:azer/juxt.git"
+  },
+  "keywords": [
+    "juxt",
+    "juxtaposition",
+    "functional"
+  ],
+  "author": "Azer Koculu <azer@kodfabrik.com>",
+  "license": "WTFPL"
+}
