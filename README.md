@@ -18,9 +18,7 @@ function inc3(n) { return n+3 };
 juxt(inc1, inc2, inc3)(314); // returns [315, 316, 317]
 ```
 
-## Async
-
-Async juxt
+#### Async
 
 ```javascript
 juxt.async(searchGoogle, searchDDG, searchBing)("hello world", function(error,  results){
