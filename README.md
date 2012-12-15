@@ -1,7 +1,7 @@
 ## Install
 
 ```bash
-$ npm install juxt # or wget https://raw.github.com/azer/juxt/master/juxt.js
+$ npm install juxt # or wget https://raw.github.com/azer/juxt.js/master/juxt.js
 ```
 
 ## Manual
