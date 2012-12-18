@@ -1,6 +1,6 @@
 {
   "name": "juxt",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Take a set of functions, return a function that is the juxtaposition of those functions.",
   "main": "juxt.js",
   "scripts": {
@@ -15,6 +15,9 @@
     "juxtaposition",
     "functional"
   ],
+  "dependencies": {
+    "map": "*"
+  },
   "author": "Azer Koculu <azer@kodfabrik.com>",
   "license": "WTFPL"
 }
