@@ -29,3 +29,17 @@ juxt.async(searchGoogle, searchDDG, searchBing)("hello world", function(error,  
   results[2] // bing
 });
 ```
+
+Functions can be passed as an object, as well;
+
+```js
+function turkish(word, callback){ /* some magic here */ }
+function french(word, callback){ /* some magic here */ }
+function polish(word, callback){ /* some magic here */ }
+
+juxt.async({ 'tr': turkish, 'fr': french, 'pl': polish })("hello", function(error,  results){
+  assert.equal(results.tr, "merhaba");
+  assert.equal(results.fr, "bonjour");
+  assert.equal(results.pl, "cześć");
+});
+```
