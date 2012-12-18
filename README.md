@@ -30,7 +30,7 @@ juxt.async(searchGoogle, searchDDG, searchBing)("hello world", function(error,  
 });
 ```
 
-Functions can be passed as an object, as well;
+Objects can be used, as well;
 
 ```js
 function turkish(word, callback){ /* some magic here */ }
